@@ -1,39 +1,52 @@
 body {
-    background-color: #5C6D70
+    background-color: #484A47;
+    /* height: 100%; */
 }
+
 .navbar-custom {
-    background-color: #5C6D70;
+    background-color: #E88873;
+    position: fixed;
+    width: 75%;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* margin-bottom: 20px; */
+    margin: 0 auto 0 auto;
+    border-radius: 25px;
+    z-index: 1;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #E88873;
+    color: #484A47;
 }
 
 .navbar-toggler {
     background-color: #484A47;
+    color: #E88873
 }
 
 
 
 main {
+    margin: 75px auto;
+    padding: 10px;
     height: 100%;
-    margin: 0, auto;;
-    /* padding: 20px; */
-    background-color: #484A47;
+    width: 75%;
+    /* margin: 0 auto; */
+    background-color: #5C6D70;
+    border-radius: 25px;
 }
 
-/* .navbar {
-    position: fixed;
-    top: 0;
-} */
 
 .form-container {
     height: 100%;
     width: 80%;
-    padding: 5px;
-    margin: 0 auto;
+    padding: 8px;
+    margin: 24px auto;
     color: #ffffff;
+    
+    
 
 }
 

@@ -1,13 +1,21 @@
-main{
+main {
+    height: 100%;
+    margin: 0, auto;;
+    /* padding: 20px; */
     background-color: #484A47;
 }
+
+/* .navbar {
+    position: fixed;
+    top: 0;
+} */
 
 .form-container {
     height: 100%;
     width: 80%;;
     margin: 0 auto;
     color: #ffffff;
-    justify-content: flex-end;
+
 }
 
 .form-control {

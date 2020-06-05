@@ -1,0 +1,22 @@
+main{
+    background-color: #484A47;
+}
+
+.form-container {
+    height: 100%;
+    width: 80%;;
+    margin: 0 auto;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+.form-control {
+    background-color: #E0AC9D;
+    border-color: #E0AC9D;
+    border-width: 4px;
+}
+.form-control:focus {
+    background-color: #5C6D70;
+    border-color: #E0AC9D;
+    color: #E0AC9D;
+}

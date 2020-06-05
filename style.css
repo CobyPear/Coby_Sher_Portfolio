@@ -1,3 +1,21 @@
+body {
+    background-color: #5C6D70
+}
+.navbar-custom {
+    background-color: #5C6D70;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #E88873;
+}
+
+.navbar-toggler {
+    background-color: #484A47;
+}
+
+
+
 main {
     height: 100%;
     margin: 0, auto;;
@@ -12,12 +30,16 @@ main {
 
 .form-container {
     height: 100%;
-    width: 80%;;
+    width: 80%;
+    padding: 5px;
     margin: 0 auto;
     color: #ffffff;
 
 }
 
+.col {
+    margin: 10px auto;
+}
 .form-control {
     background-color: #E0AC9D;
     border-color: #E0AC9D;
@@ -27,4 +49,16 @@ main {
     background-color: #5C6D70;
     border-color: #E0AC9D;
     color: #E0AC9D;
+}
+
+#btn-container {
+    /* position: relative;
+    bottom 0; */
+    flex-direction: row-reverse;
+
+}
+#submit-btn {
+    background-color: #E0AC9D;
+    color: #484A47;
+    margin: 10px 0;
 }

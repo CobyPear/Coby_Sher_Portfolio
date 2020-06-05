@@ -16,7 +16,7 @@
 </head>
 <body>
      <main>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg  navbar-custom">
          <a class="navbar-brand" href="#">Coby Sher</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
@@ -40,8 +40,8 @@
                  Music
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-item" href="#">Action</a>
-                 <a class="dropdown-item" href="#">Another action</a>
+                 <a class="dropdown-item" href="#">Bandcamp</a>
+                 <a class="dropdown-item" href="#">Spotify</a>
                  <a class="dropdown-item" href="#">Something else here</a>
                </div>
              </li>
@@ -51,9 +51,16 @@
  
        <div class="form-container">
         <form>
-          <div class="form-group">
-              <label for="exampleFormControlTextarea1">Name</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1"   rows="1" placeholder="Name"></textarea>
+            <div class="row">
+              <div class="col">
+                <label for="exampleFormControlInput1">First Name</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <label for="exampleFormControlInput1">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+                </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control"  id="exampleFormControlInput1"  placeholder="name@example.com">
@@ -61,6 +68,9 @@
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1"   rows="3"></textarea>
+              <div id="btn-container">
+                <input class="btn btn-primary" id='submit-btn' type="submit" value="Submit">
+            </div>
           </div>
         </form>
      </div>

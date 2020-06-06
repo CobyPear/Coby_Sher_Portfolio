@@ -33,9 +33,12 @@ main {
     border: 8px solid #343A40;
     border-radius: 25px;
 }
+
 .custom-bg {
 background-color: #E0AC9D;
 }
+
+/* rounding corners of image */
 .rounded-custom {
     border-radius: 75px;
 }

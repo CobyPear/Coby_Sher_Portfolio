@@ -28,6 +28,14 @@ main {
     border-radius: 25px;
 }
 
+ /* About me (index.html) */
+.border-custom {
+    border: 8px solid #343A40;
+    border-radius: 25px;
+}
+.custom-bg {
+background-color: #E0AC9D;
+}
 /* Contact Forms */
 .form-container {
     height: 100%;

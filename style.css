@@ -4,34 +4,13 @@ body {
     /* height: 100%; */
 }
 
-/* Navbar style */
-.navbar-custom {
-    background-color: #E88873;
-    position: fixed;
-    width: 75%;
-    top: 0;
-    right: 0;
-    left: 0;
-    /* margin-bottom: 20px; */
-    margin: 0 auto 0 auto;
-    border-radius: 25px;
-    z-index: 1;
-}
-
-/* .navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: #484A47; */
-}
-
-
-
 /* Main */
 main {
     margin: 75px auto;
     padding: 10px;
     height: 100%;
     width: 75%;
-    /* margin: 0 auto; */
+    margin: 16px auto;
     background-color: #5C6D70;
     border-radius: 25px;
 }
@@ -41,7 +20,7 @@ main {
     height: 100%;
     width: 80%;
     padding: 0 12px;
-    margin: 24px auto;
+    margin: 0 auto;
     color: #ffffff;
     background-color: #5C6D70;
     border-radius: 25px;

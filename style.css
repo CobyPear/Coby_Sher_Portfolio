@@ -77,17 +77,20 @@ label {
 footer {
     position: absolute;
     bottom: 0;
-    height: 60px;
+    height: 76px;
     width: 100%;
     align-content: center;
     background-color: #343A40;
 }
 
-footer .text-color {
+.text-color {
     display: flex;
     justify-content: center;
     line-height: 1.3em;
     padding-top: 16px;
     color: #ffffff;
+}
 
+.border-top-custom {
+    border-top: 12px solid #E0AC9D;
 }

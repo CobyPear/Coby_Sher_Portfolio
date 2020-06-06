@@ -1,3 +1,16 @@
+/* Media Queries */
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
 /* Body style */
 body {
     background-color: #484A47;
@@ -18,7 +31,7 @@ main {
 /* Contact Forms */
 .form-container {
     height: 100%;
-    width: 80%;
+    width: 100%;
     padding: 0 12px;
     margin: 0 auto;
     color: #ffffff;
@@ -58,4 +71,23 @@ label {
     color: #484A47;
     font-size: 1.2em;
     margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    align-content: center;
+    background-color: #343A40;
+}
+
+footer .text-color {
+    display: flex;
+    justify-content: center;
+    line-height: 1.3em;
+    padding-top: 16px;
+    color: #ffffff;
+
 }

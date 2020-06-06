@@ -36,6 +36,9 @@ main {
 .custom-bg {
 background-color: #E0AC9D;
 }
+.rounded-custom {
+    border-radius: 75px;
+}
 /* Contact Forms */
 .form-container {
     height: 100%;

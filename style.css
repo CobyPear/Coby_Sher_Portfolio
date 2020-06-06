@@ -23,11 +23,6 @@ body {
     color: #484A47;
 }
 
-.navbar-toggler {
-    background-color: #484A47;
-    color: #E88873;
-}
-
 .nav-item .dropdown {
     height: 24px;
     width: 48px;

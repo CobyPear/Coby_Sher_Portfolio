@@ -18,16 +18,12 @@ body {
     z-index: 1;
 }
 
-.navbar-custom .navbar-brand,
+/* .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #484A47;
+    color: #484A47; */
 }
 
-.nav-item .dropdown {
-    height: 24px;
-    width: 48px;
-    background-color: #E0AC9D;
-}
+
 
 /* Main */
 main {
@@ -44,9 +40,11 @@ main {
 .form-container {
     height: 100%;
     width: 80%;
-    padding: 8px;
+    padding: 0 12px;
     margin: 24px auto;
     color: #ffffff;
+    background-color: #5C6D70;
+    border-radius: 25px;
 }
 
 .col {
@@ -65,16 +63,20 @@ main {
     color: #E0AC9D;
 }
 
+label {
+    font-size: 1.5em;
+}
+
 /* Submit button */
 #btn-container {
     /* position: relative;
     bottom 0; */
     flex-direction: row-reverse;
-
 }
 
 #submit-btn {
     background-color: #E0AC9D;
     color: #484A47;
+    font-size: 1.2em;
     margin: 10px 0;
 }

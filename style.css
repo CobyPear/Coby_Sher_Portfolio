@@ -40,7 +40,7 @@ background-color: #E0AC9D;
 
 /* rounding corners of image */
 .rounded-custom {
-    border-radius: 75px;
+    border-radius: 32px;
 }
 /* Contact Forms */
 .form-container {
@@ -87,9 +87,15 @@ label {
     margin: 10px 0;
 }
 
+/* Card rounded borders */
+
+div.card-border-custom {
+    border-radius: 30px;;
+}
+
 /* Footer */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 76px;
     width: 100%;

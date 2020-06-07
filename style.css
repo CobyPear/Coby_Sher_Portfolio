@@ -19,7 +19,6 @@ body {
 
 /* Main */
 main {
-    margin: 75px auto;
     padding: 10px;
     height: 100%;
     width: 75%;
@@ -100,7 +99,7 @@ footer {
     height: 76px;
     width: 100%;
     align-content: center;
-    background-color: #343A40;
+    background-color: #343A40; 
 }
 
 .text-color {

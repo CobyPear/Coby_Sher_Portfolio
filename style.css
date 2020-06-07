@@ -95,7 +95,7 @@ div.card-border-custom {
 
 /* Footer */
 footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     height: 76px;
     width: 100%;

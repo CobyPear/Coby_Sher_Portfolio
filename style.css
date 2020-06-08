@@ -95,7 +95,7 @@ div.card-border-custom {
 }
 
 /* Card link text */
-a {
+main a {
     color: #E0AC9D;
     text-decoration: underline;
 }

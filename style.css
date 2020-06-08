@@ -39,7 +39,7 @@ background-color: #E0AC9D;
 
 /* rounding corners of image */
 .rounded-custom {
-    border-radius: 32px;
+    border-radius: 25px 25px 0 0;
 }
 /* Contact Forms */
 .form-container {

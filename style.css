@@ -93,12 +93,10 @@ div.card-border-custom {
 }
 
 /* Footer */
-footer {
+.page-footer {
     position: sticky;
     bottom: 0;
     height: 76px;
-    width: 100%;
-    align-content: center;
     background-color: #343A40; 
 }
 
@@ -112,6 +110,7 @@ footer {
 
 .border-top-custom {
     border-top: 12px solid #E0AC9D;
+    margin-top: auto;
 }
 
 #page-container {

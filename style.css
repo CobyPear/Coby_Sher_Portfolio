@@ -40,9 +40,14 @@ main {
 background-color: #E0AC9D;
 }
 
-/* rounding corners of image */
+/* rounding corners of card images*/
 .rounded-custom {
     border-radius: 25px 25px 0 0;
+}
+
+/* rounding corners of portrait img */
+.portrait-rounded-custom {
+    border-radius: 25px;
 }
 /* Contact Forms */
 .form-container {
@@ -91,7 +96,7 @@ label {
 
 /* Card rounded borders */
 div.card-border-custom {
-    border-radius: 30px;;
+    border-radius: 30px;
 }
 
 /* Card link text */

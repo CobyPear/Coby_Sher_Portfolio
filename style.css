@@ -113,3 +113,12 @@ footer {
 .border-top-custom {
     border-top: 12px solid #E0AC9D;
 }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 76px;
+}

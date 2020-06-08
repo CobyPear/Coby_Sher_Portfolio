@@ -90,9 +90,19 @@ label {
 }
 
 /* Card rounded borders */
-
 div.card-border-custom {
     border-radius: 30px;;
+}
+
+/* Card link text */
+a {
+    color: #E0AC9D;
+    text-decoration: underline;
+}
+
+a:hover {
+    
+    color:linear-gradient(darkgrey 50%, lightgrey 50%);
 }
 
 /* Footer */

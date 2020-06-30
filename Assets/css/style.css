@@ -20,7 +20,7 @@ nav {
 
 /* .custom-toggler, */
 .navbar-toggler-custom .navbar-toggler-icon {
-  background-image: url("C:/Users/shags/Desktop/Homework/responsive_portfolio/Assets/png/burger.png");
+  background-image: url("./Assets/images/burger.png");
   background-color: #e2b3a6;
   border-radius: 48px;
 

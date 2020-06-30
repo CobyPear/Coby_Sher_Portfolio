@@ -8,6 +8,43 @@ body {
   margin-top: auto;
 }
 
+/* navbar */
+nav {
+    background-color:#343A40 ;
+    border-bottom: solid 12px  #E0AC9D;
+    margin-bottom: 6px;
+}
+.nav-brand {
+    font-size: 1.6em;
+}
+
+/* .custom-toggler, */
+.navbar-toggler-custom .navbar-toggler-icon {
+  background-image: url("C:/Users/shags/Desktop/Homework/responsive_portfolio/Assets/png/burger.png");
+  background-color: #e2b3a6;
+  border-radius: 48px;
+
+}
+
+.navbar-toggler-icon:hover {
+    border: solid 3px #343A40
+}
+
+.nav-style,
+.nav-link {
+    font-family: 'Poller One', cursive;
+    font-size: 1.4em;
+    color: #E88873;
+    text-shadow: 1.5px 2px 5px #6e706c;
+    
+}
+
+.nav-style:hover,
+.nav-link:hover {
+    color: #E0AC9D;
+    text-shadow: 6px 6px 12px #A37774;
+}
+
 
 /* Main */
 
@@ -16,7 +53,8 @@ main {
   height: 100%;
   width: 75%;
   margin: 16px auto;
-  background-color: #5C6D70;
+  /* background-color: #5C6D70; */
+  background-image: linear-gradient(to top right, #5C6D70, #484A47 );
   border-radius: 25px;
 }
 
@@ -29,7 +67,34 @@ main {
 }
 
 .custom-bg {
-  background-color: #E0AC9D;
+  /* background-color: #E0AC9D; */
+  background-image: linear-gradient(to top left, #e2b3a6 20%, #E88873);
+}
+
+h2 {
+    font-family: 'Poller One', cursive;
+    color: #343A40;
+    text-shadow: 2px 5px 5px #5C6D70
+}
+
+h5 {
+    font-family: 'Poller One', cursive;
+    color: #343A40;
+    text-shadow: 2px 5px 5px #5C6D70
+}
+
+/* text font */
+p,
+.card-text {
+    font-family: 'Quicksand', sans-serif;
+    color: #343A40;
+    text-shadow: 2px 1px 8px #E0AC9D;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.card-fluid {
+    background-image: linear-gradient(to top, #484A47 10%, #A37774);
 }
 
 
@@ -44,6 +109,8 @@ main {
 
 .portrait-rounded-custom {
   border-radius: 25px;
+  margin-bottom: 18px;
+  box-shadow: 12px 10px rgb(75, 74, 74);
 }
 
 
@@ -53,10 +120,11 @@ main {
   height: 100%;
   width: 100%;
   padding: 0 12px;
-  margin: 0 auto;
+  margin: 24px auto;
   color: #ffffff;
-  background-color: #5C6D70;
+  background-image: linear-gradient(to top, #484A47 10%, #E88873);
   border-radius: 25px;
+  font-family: 'Quicksand', sans-serif
 }
 
 .col {
@@ -107,16 +175,19 @@ label {
   border: none;
 }
 
-/* resume page style */
-
-.c18{
-    height: 100%;
-}
 
 /* Card rounded borders */
 
 div.card-border-custom {
   border-radius: 30px;
+}
+
+.card-title {
+    font-family: 'Poller One', cursive;
+}
+
+.card-text {
+    font-family: 'Quicksand', sans-serif
 }
 
 
@@ -125,10 +196,10 @@ div.card-border-custom {
 main a {
   color: #E0AC9D;
   text-decoration: underline;
+  font-family: 'Quicksand', sans-serif
 }
 
 a:hover {
-  color: linear-gradient(darkgrey 50%, lightgrey 50%);
 }
 
 
@@ -137,6 +208,7 @@ a:hover {
 .page-footer {
   height: 76px;
   background-color: #343A40;
+  font-family: 'Quicksand', sans-serif
 }
 
 .text-color {
@@ -144,7 +216,9 @@ a:hover {
   justify-content: center;
   line-height: 1.3em;
   padding-top: 16px;
+  padding-bottom: 16px;
   color: #ffffff;
+  background-color: #343A40;
 }
 
 .border-top-custom {
@@ -156,6 +230,11 @@ a:hover {
   padding-bottom: 76px;
 }
 
+
+
+/* google font families
+font-family: 'Poller One', cursive;
+font-family: 'Quicksand', sans-serif; */
 
 /* Media Queries */
 

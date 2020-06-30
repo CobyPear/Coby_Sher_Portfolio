@@ -20,7 +20,8 @@ nav {
 
 /* .custom-toggler, */
 .navbar-toggler-custom .navbar-toggler-icon {
-  background-image: url("/Assets/images/burger.png");
+/*   background-image: url("/Assets/images/burger.png"); */
+  background-image: url("https://img.icons8.com/pastel-glyph/64/000000/hamburger.png")
   background-color: #e2b3a6;
   border-radius: 48px;
 

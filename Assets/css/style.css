@@ -77,6 +77,12 @@ h2 {
     text-shadow: 2px 5px 5px #5C6D70
 }
 
+h3 {
+  font-family: 'Poller One', cursive;
+  color: #343A40;
+  text-shadow: 2px 5px 5px #5C6D70
+}
+
 h5 {
     font-family: 'Poller One', cursive;
     color: #343A40;
@@ -94,7 +100,7 @@ p,
 }
 
 .card-fluid {
-    background-image: linear-gradient(to top, #484A47 10%, #A37774);
+    background-image: linear-gradient(to bottom, #484A47 10%, #A37774);
 }
 
 
@@ -193,24 +199,27 @@ div.card-border-custom {
     overflow: hidden;
 }
 
+.keep-logging-img {
+  width: 100%;
+}
 
 /* Card link text */
 
 main a {
   color: #E0AC9D;
-  text-decoration: underline;
+  background-color: #343A40;
+  border-radius: 4px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 1.4em;
   overflow: hidden;
 }
 
-a:hover {
-  background-image: linear-gradient(#e88873 0%, #e0ac9d 80%, transparent 50%);
+main a:hover {
+  background-image: linear-gradient(to left, #343a40 20%, #484A47 50%, #000000 95%, #E0AC9D 100%, transparent 50%);
   -webkit-background-clip: text;
   color: transparent;
   background-position: 100% 0;
   background-size: 200% 200%;
-  background-color: #E0AC9D;
-  font-size: 1.89em;
 }
 
 
@@ -240,7 +249,6 @@ a:hover {
 #content-wrap {
   padding-bottom: 76px;
 }
-
 
 
 /* google font families

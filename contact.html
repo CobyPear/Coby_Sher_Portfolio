@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -14,7 +14,7 @@
     <!-- My css -->
     <link rel="stylesheet" href="./Assets/css/style.css">
 
-    <title>Coby Sher</title>
+    <title>Coby Sher | Contact</title>
   </head>
   <body>
       <!-- navbar -->
@@ -49,11 +49,11 @@
         <div class="form-container">
          <form>
              <div class="row">
-               <div class="col">
+               <div class="col-lg-6" id="first-name">
                  <label for="exampleFormControlInput1">First Name</label>
                  <input type="text" class="form-control" placeholder="First name">
                </div>
-               <div class="col">
+               <div class="col-lg-6" id="last-name">
                  <label for="exampleFormControlInput1">Last Name</label>
                  <input type="text" class="form-control" placeholder="Last name">
                </div>
@@ -64,7 +64,7 @@
            </div>
              <div class="form-group">
                <label for="exampleFormControlTextarea1">Message</label>
-               <textarea class="form-control msg-textbox" id="exampleFormControlTextarea1" placeholder="Message submission is currently disabled. Please email me directly for now, thanks!" rows="3"></textarea>
+               <textarea class="form-control msg-textbox" id="exampleFormControlTextarea1" placeholder="Write your message here! I will do my best to answer all messages." rows="3"></textarea>
                <div id="btn-container" aria-label="submit">
                  <input class="btn btn-primary" id='submit-btn' type="submit" value="Submit">
              </div>
@@ -72,8 +72,6 @@
          </form>
         </div>
         <!-- end Forms -->
-        <!-- google form -->
-        <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScikF-6KiM7lW9XoU5guBbOshKhYDteQks60ZU6gmbh5IlMiw/viewform?embedded=true" width="1200" height="760" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
       </main>
       <!-- end Main -->
       <!-- Footer -->
@@ -90,6 +88,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+      const submit = document.getElementById('submit-btn');
+      submit.addEventListener('click', function(e){
+        e.preventDefault();
+        window.open("mailto:pear.coby@gmail.com?subject=Portfolio%20Inquiry")
+      })
+    </script>
 
   </body>
 </html>

@@ -36,7 +36,7 @@ nav {
     font-size: 1.4em;
     color: #E88873;
     text-shadow: 1.5px 2px 5px #6e706c;
-    
+
 }
 
 .nav-style:hover,
@@ -140,6 +140,7 @@ p,
 .form-control:focus {
   background-color: #5C6D70;
   border-color: #E0AC9D;
+  color: #E0AC9D
 }
 
 .form-control:focus::-webkit-input-placeholder {
@@ -163,7 +164,7 @@ label {
   background-color: #E0AC9D;
   color: #484A47;
   font-size: 1.2em;
-  margin: 10px 0;
+  margin: 18px 0;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -184,10 +185,12 @@ div.card-border-custom {
 
 .card-title {
     font-family: 'Poller One', cursive;
+    overflow: hidden;
 }
 
 .card-text {
-    font-family: 'Quicksand', sans-serif
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 
@@ -196,11 +199,19 @@ div.card-border-custom {
 main a {
   color: #E0AC9D;
   text-decoration: underline;
-  font-family: 'Quicksand', sans-serif
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
 }
 
-/* a:hover {
-} */
+a:hover {
+  background-image: linear-gradient(#e88873 0%, #e0ac9d 80%, transparent 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  background-color: #E0AC9D;
+  font-size: 1.89em;
+}
 
 
 /* Footer */
@@ -239,9 +250,23 @@ font-family: 'Quicksand', sans-serif; */
 /* Media Queries */
 
 
-/* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* Small devices (landscape phones, 575px and smaller) */
+@media (max-width: 575px) {
+  label {
+    display: none;
+  }
 
+  input {
+    margin: 13px 0;
+  }
+
+  #btn-container {
+    display: flex;
+    justify-content: center;
+  }
+ }
+
+/*
 Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 

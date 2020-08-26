@@ -222,6 +222,10 @@ main a:hover {
   background-size: 200% 200%;
 }
 
+.resumeWrapper {
+  min-height: 100vh;
+}
+
 
 /* Footer */
 

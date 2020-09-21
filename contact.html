@@ -43,34 +43,25 @@
       <!-- end Nav -->
 
       <!-- Main section -->
-      <main class="container-fluid">
-        <!-- Forms -->
-        <div class="form-container">
-         <form>
-             <div class="row">
-               <div class="col-lg-6" id="first-name">
-                 <label for="exampleFormControlInput1">First Name</label>
-                 <input type="text" class="form-control" placeholder="First name">
-               </div>
-               <div class="col-lg-6" id="last-name">
-                 <label for="exampleFormControlInput1">Last Name</label>
-                 <input type="text" class="form-control" placeholder="Last name">
-               </div>
-                 </div>
-           <div class="form-group">
-             <label for="exampleFormControlInput1">Email address</label>
-             <input type="email" class="form-control"    id="exampleFormControlInput1" placeholder="name@example.com">
-           </div>
-             <div class="form-group">
-               <label for="exampleFormControlTextarea1">Message</label>
-               <textarea class="form-control msg-textbox" id="exampleFormControlTextarea1" placeholder="Write your message here! I will do my best to answer all messages." rows="3"></textarea>
-               <div id="btn-container" aria-label="submit">
-                 <input class="btn btn-primary" id='submit-btn' type="submit" value="Submit">
-             </div>
-           </div>
-         </form>
+      <main class="container-fluid custom-bg">
+        <div class="card-header">
+          <h2>Contact Information</h2>
         </div>
-        <!-- end Forms -->
+        <div class="card-fluid border-custom">
+          <div class="card-body">
+            <ul>
+              <li>
+                <h4 style="display: inline; color: #E88873;" >Email: </h4><a href="mailto:pear.coby@gmail.com" target="blank">pear.coby@gmail.com</a>
+              </li>
+              <li>
+                <h4 style="display: inline; color: #E88873">Twitter: </h4> <a href="https://twitter.com/CobyPear" target="blank">Coby's Twitter</a>
+              </li>
+              <li>
+                <h4 style="display: inline; color:#E88873">GitHub: </h4> <a href="https://github.com/cobypear" target="blank">Coby's GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </main>
       <!-- end Main -->
       <!-- Footer -->
@@ -87,13 +78,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script>
-      const submit = document.getElementById('submit-btn');
-      submit.addEventListener('click', function(e){
-        e.preventDefault();
-        window.open('mailto:pear.coby@gmail.com?subject=Portfolio%20Inquiry')
-      })
-    </script>
-
   </body>
 </html>

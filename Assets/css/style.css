@@ -8,41 +8,44 @@ body {
   margin-top: auto;
 }
 
+
 /* navbar */
+
 nav {
-    background-color:#343A40 ;
-    border-bottom: solid 12px  #E0AC9D;
-    margin-bottom: 6px;
-}
-.nav-brand {
-    font-size: 1.6em;
+  background-color: #343A40;
+  border-bottom: solid 12px #E0AC9D;
+  margin-bottom: 6px;
 }
 
+.nav-brand {
+  font-size: 1.6em;
+}
+
+
 /* .custom-toggler, */
+
 .navbar-toggler-custom .navbar-toggler-icon {
   background-image: url("https://img.icons8.com/pastel-glyph/64/000000/hamburger.png");
   background-color: #e2b3a6;
   border-radius: 48px;
-
 }
 
 .navbar-toggler-icon:hover {
-    border: solid 3px #343A40
+  border: solid 3px #343A40
 }
 
 .nav-style,
 .nav-link {
-    font-family: 'Poller One', cursive;
-    font-size: 1.4em;
-    color: #E88873;
-    text-shadow: 1.5px 2px 5px #6e706c;
-
+  font-family: 'Poller One', cursive;
+  font-size: 1.4em;
+  color: #E88873;
+  text-shadow: 1.5px 2px 5px #6e706c;
 }
 
 .nav-style:hover,
 .nav-link:hover {
-    color: #E0AC9D;
-    text-shadow: 6px 6px 12px #A37774;
+  color: #E0AC9D;
+  text-shadow: 6px 6px 12px #A37774;
 }
 
 
@@ -54,7 +57,7 @@ main {
   width: 75%;
   margin: 16px auto;
   /* background-color: #5C6D70; */
-  background-image: linear-gradient(to top right, #5C6D70, #484A47 );
+  background-image: linear-gradient(to top right, #5C6D70, #484A47);
   border-radius: 25px;
 }
 
@@ -71,6 +74,7 @@ main {
   background-image: linear-gradient(to top left, #e2b3a6 20%, #E88873);
 }
 
+
 /* skills icons */
 
 .icon {
@@ -86,9 +90,9 @@ main {
 /* header tags  */
 
 h2 {
-    font-family: 'Poller One', cursive;
-    color: #343A40;
-    text-shadow: 2px 5px 5px #5C6D70
+  font-family: 'Poller One', cursive;
+  color: #343A40;
+  text-shadow: 2px 5px 5px #5C6D70
 }
 
 h3 {
@@ -97,24 +101,31 @@ h3 {
   text-shadow: 2px 5px 5px #5C6D70
 }
 
-h5 {
-    font-family: 'Poller One', cursive;
-    color: #343A40;
-    text-shadow: 2px 5px 5px #5C6D70
+h4 {
+  font-family: 'Poller One', cursive;
+  color: #E88873;
 }
 
+h5 {
+  font-family: 'Poller One', cursive;
+  color: #343A40;
+  text-shadow: 2px 5px 5px #5C6D70
+}
+
+
 /* text font */
+
 p,
 .card-text {
-    font-family: 'Quicksand', sans-serif;
-    color: #343A40;
-    text-shadow: 2px 1px 8px #E0AC9D;
-    font-weight: 600;
-    font-size: 1.2em;
+  font-family: 'Quicksand', sans-serif;
+  color: #343A40;
+  text-shadow: 2px 1px 8px #E0AC9D;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 .card-fluid {
-    background-image: linear-gradient(to bottom, #484A47 10%, #A37774);
+  background-image: linear-gradient(to bottom, #484A47 10%, #A37774);
 }
 
 
@@ -172,6 +183,13 @@ label {
 }
 
 
+/* Twitter Timeline */
+
+.twitter {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Card rounded borders */
 
@@ -180,18 +198,19 @@ div.card-border-custom {
 }
 
 .card-title {
-    font-family: 'Poller One', cursive;
-    overflow: hidden;
+  font-family: 'Poller One', cursive;
+  overflow: hidden;
 }
 
 .card-text {
-    font-family: 'Quicksand', sans-serif;
-    overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
 }
 
 .keep-logging-img {
   width: 100%;
 }
+
 
 /* Card link text */
 
@@ -249,24 +268,25 @@ main a:hover {
 font-family: 'Poller One', cursive;
 font-family: 'Quicksand', sans-serif; */
 
+
 /* Media Queries */
 
 
 /* Small devices (landscape phones, 575px and smaller) */
+
 @media (max-width: 575px) {
   label {
     display: none;
   }
-
   input {
     margin: 13px 0;
   }
-
   #btn-container {
     display: flex;
     justify-content: center;
   }
- }
+}
+
 
 /*
 Medium devices (tablets, 768px and up)

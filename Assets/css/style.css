@@ -225,6 +225,7 @@ main a {
 
 main a:hover {
   background-image: linear-gradient(to left, #343a40 20%, #484A47 50%, #000000 95%, #E0AC9D 100%, transparent 50%);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-position: 100% 0;

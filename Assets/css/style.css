@@ -80,22 +80,23 @@ main {
 .icon {
   margin-top: 30px;
   margin-bottom: 25px;
-  height: 80px;
-  width: auto;
-  border-radius: 50%;
-  padding: 0 10px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
 }
 
 
 /* header tags  */
 
-h2 {
+h2, h3, h4, h5 {
   font-family: 'Poller One', cursive;
   color: #343A40;
   text-shadow: 2px 5px 5px #5C6D70
 }
 
-h3 {
+/* h3 {
   font-family: 'Poller One', cursive;
   color: #343A40;
   text-shadow: 2px 5px 5px #5C6D70
@@ -110,7 +111,7 @@ h5 {
   font-family: 'Poller One', cursive;
   color: #343A40;
   text-shadow: 2px 5px 5px #5C6D70
-}
+} */
 
 
 /* text font */
@@ -183,14 +184,6 @@ label {
 }
 
 
-/* Twitter Timeline */
-
-.twitter {
-  display: flex;
-  justify-content: center;
-}
-
-
 /* Card rounded borders */
 
 div.card-border-custom {
@@ -221,15 +214,21 @@ main a {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.4em;
   overflow: hidden;
+  margin: 5px;
 }
 
-main a:hover {
-  background-image: linear-gradient(to left, #343a40 20%, #484A47 50%, #000000 95%, #E0AC9D 100%, transparent 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-position: 100% 0;
-  background-size: 200% 200%;
+main a:hover,footer a:hover {
+  cursor: pointer;
+  color: #e2cec8;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 5px;
+}
+
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #e2cec8;
 }
 
 .resumeWrapper {
@@ -239,8 +238,8 @@ main a:hover {
 
 /* Footer */
 
-.page-footer {
-  height: 76px;
+#page-footer {
+  height: 86px;
   background-color: #343A40;
   font-family: 'Quicksand', sans-serif
 }
@@ -273,18 +272,11 @@ font-family: 'Quicksand', sans-serif; */
 /* Media Queries */
 
 
-/* Small devices (landscape phones, 575px and smaller) */
+/* Small devices (landscape phones, 575px and larger) */
 
-@media (max-width: 575px) {
-  label {
-    display: none;
-  }
-  input {
-    margin: 13px 0;
-  }
-  #btn-container {
-    display: flex;
-    justify-content: center;
+@media (min-width: 574px) {
+  .icon {
+    display: inline-block
   }
 }
 

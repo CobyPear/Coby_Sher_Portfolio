@@ -88,13 +88,18 @@ main {
   padding-left: 8px;
 }
 
+
 /* header tags  */
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Poller One', cursive;
   color: #343A40;
   text-shadow: 2px 5px 5px #5C6D70
 }
+
 
 /* h3 {
   font-family: 'Poller One', cursive;
@@ -123,7 +128,7 @@ p,
   text-shadow: 2px 1px 8px #E0AC9D;
   font-weight: 600;
   font-size: 1.2em;
-  word-wrap:normal
+  word-wrap: normal
 }
 
 .card-fluid {
@@ -140,7 +145,6 @@ p,
 
 /* rounding corners of portrait img */
 
-
 .portrait-rounded-custom {
   max-width: 300px;
   min-width: 300px;
@@ -152,6 +156,7 @@ p,
   margin-right: 0;
   box-shadow: 10px 5px rgb(75, 74, 74);
 }
+
 
 /* Contact Forms */
 
@@ -224,7 +229,8 @@ main a {
   margin: 5px;
 }
 
-main a:hover,footer a:hover {
+main a:hover,
+footer a:hover {
   cursor: pointer;
   color: #e2cec8;
   text-decoration: none;
@@ -240,6 +246,14 @@ footer a {
 
 .resumeWrapper {
   min-height: 100vh;
+}
+
+
+/*  Portfolio Images/gifs */
+
+.dish-gif {
+  display: flex;
+  margin: 0 auto 0 auto;
 }
 
 
@@ -279,13 +293,13 @@ font-family: 'Quicksand', sans-serif; */
 /* Media Queries */
 
 
-
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  
-}
+
+@media (min-width: 992px) {}
+
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
   .portrait-rounded-custom {
     margin: 0 auto 20px auto;
@@ -296,6 +310,8 @@ font-family: 'Quicksand', sans-serif; */
     margin-right: auto;
   }
 }
+
+
 /* Small devices (landscape phones, 575px and larger) */
 
 @media (min-width: 574px) {
@@ -311,8 +327,19 @@ font-family: 'Quicksand', sans-serif; */
     text-align: center;
   }
 }
-  
-  
-  /*
+
+
+/*  Small phones and lower */
+
+@media(max-width: 577px) {
+  .dish-gif {
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+  }
+}
+
+
+/*
 Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */

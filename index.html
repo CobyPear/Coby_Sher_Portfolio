@@ -50,28 +50,28 @@
 
     <main class="container-fluid">
         <div class="row">
-            <section class="col-lg-9 row-md-12 border-custom custom-bg">
+            <section class="col-xl-8 col-lg-12 border-custom custom-bg">
                 <h2 class="text-center pt-1">About Me</h2>
-                <div class="text-center mt-3">
-                    <img src="./Assets/images/'headshot'profilepicsize.jpg" class="img-fluid portrait-rounded-custom" alt="Coby's Picture">
+                <div class="mt-3 row">
+                    <img src="./Assets/images/'headshot'profilepicsize.jpg" class="portrait-rounded-custom col-xl-2 col-lg-3" alt="Coby's Picture">
+                    <article class="text-wrap col-8 col-md-12 col-xs-12 about-me">
+                        <p>
+                            Full-stack web developer with a background in music composition, production, and education. Recently earned a full stack web development certificate from the University of Minnesota. Skills include JavaScript, HTML, CSS, Node, React, Express, SASS, Core
+                            Java, OOP, and Agile methodology. Focused on backend design and development.
+    
+                            <br>
+                            <br> I'm interested in developing unique experiences on the web. Recently I worked with a team of three to develop an electronic logbook for pilots to keep track of their flights and generate charts for their total hours logged.
+    
+                            <br>
+                            <br> I love learning new things and coding has been an amazing outlet to do just that. The overwhelming amount of technology and resources keep me interested and coming back for more knowledge day after day! When I'm not learning
+                            new things about coding, I enjoy spending time with my partner and our animals, making electronic music, and playing video games.
+                        </p>
+                    </article>
                 </div>
-                <article class="text-wrap">
-                    <p>
-                        Full-stack web developer with a background in music composition, production, and education. Recently earned a full stack web development certificate from the University of Minnesota. Skills include JavaScript, HTML, CSS, Node, React, Express, SASS, Core
-                        Java, OOP, and Agile methodology. Focused on backend design and development.
-
-                        <br>
-                        <br> I'm interested in developing unique experiences on the web. Recently I worked with a team of three to develop an electronic logbook for pilots to keep track of their flights and generate charts for their total hours logged.
-
-                        <br>
-                        <br> I love learning new things and coding has been an amazing outlet to do just that. The overwhelming amount of technology and resources keep me interested and coming back for more knowledge day after day! When I'm not learning
-                        new things about coding, I enjoy spending time with my partner and our animals, making electronic music, and playing video games.
-                    </p>
-                </article>
             </section>
-            <div class="col-lg-3 row-md-12 border-custom custom-bg ">
-                <h2 class="mt-2">Skills</h2>
-                <section class=" d-flex flex-wrap align-conent-between">
+            <div class=" col-xl-4 col-lg-12 row-md-12 border-custom custom-bg ">
+                <h2 class="mt-2 text-center">Skills</h2>
+                <section class=" d-flex flex-wrap">
                     <!-- JavaScript icon -->
                     <img class="icon" src="./Assets/icons/icons8-javascript.svg" alt="JavaScript">
                     <!-- CSS3 icon -->
@@ -122,6 +122,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        const icon = document.getElementsByClassName('icon')
+
+        icon.forEach(x => console.log(x))
+    </script>
 </body>
 
 </html>

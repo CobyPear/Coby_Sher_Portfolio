@@ -85,8 +85,8 @@ main {
   height: 100px;
   width: 100px;
   margin-right: 10px;
+  padding-left: 8px;
 }
-
 
 /* header tags  */
 
@@ -123,6 +123,7 @@ p,
   text-shadow: 2px 1px 8px #E0AC9D;
   font-weight: 600;
   font-size: 1.2em;
+  word-wrap:normal
 }
 
 .card-fluid {
@@ -139,12 +140,20 @@ p,
 
 /* rounding corners of portrait img */
 
+
 .portrait-rounded-custom {
+  padding-right: 0;
+  max-width: 300px;
+  max-height: 365px;
   border-radius: 25px;
   margin-bottom: 18px;
-  box-shadow: 12px 10px rgb(75, 74, 74);
+  margin-right: 0;
+  box-shadow: 10px 5px rgb(75, 74, 74);
 }
 
+.portrait-rounded-custom::after {
+  margin-right:20px;
+}
 
 /* Contact Forms */
 
@@ -272,21 +281,40 @@ font-family: 'Quicksand', sans-serif; */
 /* Media Queries */
 
 
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .portrait-rounded-custom {
+    margin: 0 auto 20px auto;
+  }
+  .about-me {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /* Small devices (landscape phones, 575px and larger) */
 
 @media (min-width: 574px) {
   .icon {
-    display: inline-block
+    display: flex;
+    align-content: space-around;
+  }
+  .portrait-rounded-custom {
+    margin: 0 auto 20px auto;
+  }
+  .about-me {
+    margin: 0 auto 0 auto;
+    text-align: center;
   }
 }
-
-
-/*
-Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
+  
+  
+  /*
 Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */

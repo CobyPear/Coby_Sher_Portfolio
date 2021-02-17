@@ -213,7 +213,8 @@ div.card-border-custom {
 }
 
 .keep-logging-img {
-  width: 100%;
+  height: 400px;
+  width: auto;
 }
 
 
@@ -337,6 +338,12 @@ font-family: 'Quicksand', sans-serif; */
     width: max-content;
     height: max-content;
   }
+  
+.keep-logging-img {
+  height: 250px;
+  width: auto;
+}
+
 }
 
 
